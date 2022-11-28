@@ -125,10 +125,6 @@
             text-align: center;
         }
 
-        .barcode {
-            margin-top: -300px;
-        }
-
         .responsive {
             max-width: 400px;
             min-height: 100vh;
@@ -139,50 +135,67 @@
 
 <body>
     <div class="responsive shadow-lg rounded">
-        <a class="btn btn-primary btn-sm mx-4 my-4" style="background-color: #7e5134; border: 1px solid #000;" href="index.html"><i class="ri-arrow-left-line"></i> kembali</a>
-        <div id="link"><a class="link shadow p-2 mb-4 rounded" href="visi.html">VISI</a></div>
-        <h1 class="text-white text-center mt-4">MISI</h1>
-        <div class="responsive">
-            <ol class="list-group list-group-numbered mx-3">
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">Meningkatkan efisiensi dalam setiap pertemuan kepengurusan OSIS SMKN 1
-                            Jakarta.
+        <a class="btn btn-primary btn-sm mx-4 my-4" style="background-color: #7e5134; border: 1px solid #000;"
+            href="index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="24">
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+                    fill="rgba(255,255,255,1)" />
+            </svg> kembali</a>
+        <h1 class="text-white text-center mt-4">ABOUT ME</h1>
+        <div class="mx-3">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            Item Utama
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <b>Nama: </b> Justin Aurelius Dani <br>
+                            <b>Nama Panggilan: </b> Coach <br>
+                            <b>Tempat, tanggal lahir: </b> Tangerang, 13 Juni 2007 <br>
+                            <b>Umur: </b> 15 Tahun <br>
+                            <b>Hobi: </b> Scroll Sosmed <br>
+                            <b>Kesukaan: </b> Kerja, makanan enak, dan Azizi <br>
+                            <b>Ketidaksukaan: </b> ketidakjelasan
                         </div>
                     </div>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">Menempatkan OSIS SMKN 1 Jakarta sebagai role model bagi siswa/i SMKN 1
-                            Jakarta.
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Item Tambahan
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <b>Kelas:</b> 10 PPLG 2 <br>
+                            <b>Sebagai:</b> Calon Wakil Ketua OSIS <br>
+                            <b>Kegiatan:</b> <br>
+                            -OSIS (Calon Wakil Ketua OSIS) <br>
+                            -KIR <br>
+                            -EC <br>
                         </div>
                     </div>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">Memaksimalkan peran serta fungsi sebagai OSIS SMKN 1 Jakarta di setiap
-                            kegiatan sekolah.
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">Melanjutkan program kerja OSIS terdahulu yang belum sempat terlaksana.
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                        <div class="fw-bold">Mengadakan acara-acara yang menghibur, bermanfaat, serta dapat membangun
-                            bakat siswa/i SMKN 1 Jakarta.
-                        </div>
-                    </div>
-                </li>
-            </ol>
+                </div>
+            </div>
         </div>
+        <a class="btn btn-primary btn-sm mx-4 my-4" style="border: 1px solid #000;" href="raya.html"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="24">
+                <path fill="none" d="M0 0h24v24H0z" />
+                <path d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+                    fill="rgba(255,255,255,1)" />
+            </svg> Raya</a>
         <div class="barcode">
             <img src="barcode.jpg" width="200"
-                style="margin-top: -50px; margin-left: auto; margin-right: auto; display: block; border-radius: 20px;"
+                style="margin-top: 50px; margin-left: auto; margin-right: auto; display: block; border-radius: 20px;"
                 alt="">
         </div>
         <footer class="foot">
