@@ -18,8 +18,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"   />
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <style>
         body {
             background-image: url('https://static.vecteezy.com/system/resources/previews/003/093/932/non_2x/cartoon-nature-forest-scenery-free-vector.jpg');
@@ -134,14 +135,17 @@
 <body>
     <div class="responsive shadow-lg rounded">
         <div class="row mx-auto mt-3">
-            <img src="raya.png" class="rounded-5 gambar p-0 mx-auto" style="border: 2px solid #fff; width: 150px;" alt="">
-            <img src="justin.jpg" class="rounded-5 gambar p-0 mx-auto" style="border: 2px solid #fff; width: 150px;" alt="">
+            <img src="raya.png" class="rounded-5 gambar p-0 mx-auto" style="border: 2px solid #fff; width: 150px;"
+                alt="">
+            <img src="justin.jpg" class="rounded-5 gambar p-0 mx-auto" style="border: 2px solid #fff; width: 150px;"
+                alt="">
         </div>
         <div class="mt-4 col-12 mx-auto">
             <a href="raya.html" class="btn btn-primary btn-sm col-4" style="margin-left: 8%">About me</a>
             <a href="justin.html" class="btn btn-primary btn-sm col-4" style="margin-left: 15%;">About me</a>
         </div>
-        <p class="card-text text-white m-4 text-center rounded" style="background-color: #eaeaea4d; padding: 5px;">Calon Ketua dan Wakil Ketua OSIS
+        <p class="card-text text-white m-4 text-center rounded" style="background-color: #eaeaea4d; padding: 5px;">Calon
+            Ketua dan Wakil Ketua OSIS
             2023/2024<br>
             Gea Naraya Valen XI-MM<br>
             Justin Aurelius Dani X-PPLG 2</p>
@@ -149,16 +153,30 @@
             <a class="link link1 shadow p-2 mb-4 rounded" href="visi.html">VISI</a>
             <a class="link shadow p-2 mb-4 rounded" href="misi.html">MISI</a>
             <a class="link shadow p-2 mb-4 rounded" href="proker.html">PROGRAM KERJA</a>
-        <div class="barcode">
-            <img src="qrcode.png" width="200"
-                style="margin-top: 50px; margin-left: auto; margin-right: auto; display: block; border-radius: 20px;"
-                alt="">
+            <div class="barcode">
+                <img src="qrcode.png" width="200"
+                    style="margin-top: 50px; margin-left: auto; margin-right: auto; display: block; border-radius: 20px;"
+                    alt="">
+            </div>
+            <center><button class="btn btn-danger mt-5 fst-italic btn-lg" onclick="contoh()">Vote Paslon 2!!</button>
+            </center>
+            <script type="text/javascript">
+                function contoh() {
+                    Swal.fire({
+                        title: "AYO VOTE PASLON 2!",
+                        confirmButtonColor: '#d43343',
+                        confirmButtonText: '<i><b>YEAH !!</i>',
+                        color: "#fff",
+                        type: "success"
+                    });
+                }
+            </script>
+            <footer class="foot">
+                Copyright by Paslon 2
+            </footer>
         </div>
-        <footer class="foot">
-            Copyright by Paslon 2
-        </footer>
-    </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></script>
 </body>
 
 </html>
